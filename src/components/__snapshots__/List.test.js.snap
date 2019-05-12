@@ -1,0 +1,95 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`List Component renders the UI as expected 1`] = `
+<section
+  className="List"
+>
+  <header
+    className="List-header"
+  >
+    <h2>
+      List 1
+    </h2>
+  </header>
+  <div
+    className="List-cards"
+  >
+    <div
+      className="Card"
+    >
+      <h3>
+        First card
+      </h3>
+      <p>
+        lorem ipsum
+      </p>
+    </div>
+    <div
+      className="Card"
+    >
+      <h3>
+        Second card
+      </h3>
+      <p>
+        lorem ipsum
+      </p>
+    </div>
+    <div
+      className="Card"
+    >
+      <h3>
+        Third card
+      </h3>
+      <p>
+        lorem ipsum
+      </p>
+    </div>
+    <div
+      className="Card"
+    >
+      <h3>
+        Fourth card
+      </h3>
+      <p>
+        lorem ipsum
+      </p>
+    </div>
+  </div>
+</section>
+`;
+
+exports[`List Component renders the UI as expected with no header prop passed 1`] = `
+<section
+  className="List"
+>
+  <header
+    className="List-header"
+  >
+    <h2 />
+  </header>
+  <div
+    className="List-cards"
+  >
+    <div
+      className="Card"
+    >
+      <h3>
+        First card
+      </h3>
+      <p>
+        lorem ipsum
+      </p>
+    </div>
+    <div
+      className="Card"
+    >
+      <h3>
+        Second card
+      </h3>
+      <p>
+        lorem ipsum
+      </p>
+    </div>
+  </div>
+</section>
+`;
